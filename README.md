@@ -1,6 +1,6 @@
 # SukiSU-Ultra v4.2.0 + SUSFS 2.3.0 + KPM — Redmi Note 9 Pro (gauguin)
 
-Redmi Note 9 Pro（gauguin / gauguinpro / gauguininpro，SM7125）LineageOS 23.2（Android 15）内核，Linux 4.19.325 非 GKI。
+Redmi Note 9 Pro（gauguin / gauguinpro / gauguininpro，SM7125）LineageOS 23.2（Android 16）内核，Linux 4.19.325 非 GKI。
 
 - `android_kernel_xiaomi_gauguin/`：完整修改后内核源码（SukiSU-Ultra v4.2.0 驱动 + SUSFS 2.3.0 + KPM 全功能）
 - `docs/`：编译方法与全部踩坑记录
