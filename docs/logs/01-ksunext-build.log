@@ -1,0 +1,35 @@
+=== KSU-Next build v9 start 2026年 10月 02日 星期五 10:20:45 CST ===
+make[1]: 进入目录“/mnt/note9pro-build/03-ksunext-susfs/android_kernel_xiaomi_gauguin/out”
+  GEN     ./Makefile
+  Using .. as source for kernel
+  CALL    ../scripts/checksyscalls.sh
+  CHK     include/generated/compile.h
+  CHK     kernel/kheaders_data.tar.xz
+  DTC     arch/arm64/boot/dts/vendor/qcom/lagoon.dtb
+../drivers/kernelsu/Makefile:28: "KSU_GIT_VERSION not defined! It is better to make KernelSU-Next a git submodule!"
+-- KernelSU-Next Manager signature size: 0x3e6
+-- KernelSU-Next Manager signature hash: 79e590113c4c4c0c222978e413a5faa801666957b1212a328e46c00c69821bf7
+-- SUSFS_VERSION: v1.5.5
+  CC      drivers/kernelsu/sucompat.o
+  DTC     arch/arm64/boot/dts/vendor/qcom/gauguin-sm6350-overlay.dtbo
+  CC      drivers/kernelsu/core_hook.o
+  DTBOIMG arch/arm64/boot/dtbo.img
+  AR      drivers/kernelsu/built-in.a
+  AR      drivers/built-in.a
+  GEN     .version
+  CHK     include/generated/compile.h
+  UPD     include/generated/compile.h
+  CC      init/version.o
+  AR      init/built-in.a
+  AR      built-in.a
+  MODPOST vmlinux.o
+  KSYM    .tmp_kallsyms1.o
+  KSYM    .tmp_kallsyms2.o
+  LD      vmlinux
+  SORTEX  vmlinux
+  SYSMAP  System.map
+  OBJCOPY arch/arm64/boot/Image
+  Building modules, stage 2.
+  MODPOST 0 modules
+make[1]: 离开目录“/mnt/note9pro-build/03-ksunext-susfs/android_kernel_xiaomi_gauguin/out”
+=== build end rc=0 2026年 10月 02日 星期五 10:21:40 CST ===
